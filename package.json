@@ -11,7 +11,7 @@
     "egg-plugin"
   ],
   "dependencies": {
-    "egg-logger": "^2.1.0"
+    "egg-logger": "^1.7.1"
   },
   "devDependencies": {
     "autod": "^3.0.0",
