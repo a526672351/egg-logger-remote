@@ -11,7 +11,9 @@
     "egg-plugin"
   ],
   "dependencies": {
-    "egg-logger": "^1.7.1"
+    "aggregate-base": "^1.2.0",
+    "egg-logger": "^1.7.1",
+    "mz": "^2.7.0"
   },
   "devDependencies": {
     "autod": "^3.0.0",

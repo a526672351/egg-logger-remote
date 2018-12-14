@@ -6,5 +6,7 @@
  * @property {String} SOME_KEY - some description
  */
 exports.loggerRemote = {
-  endpoint: ''
+  endpoint: '',
+  disable: [],
+  transform: null
 };
