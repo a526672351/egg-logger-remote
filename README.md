@@ -1,5 +1,6 @@
 # egg-logger-remote
 
+<!--
 [![NPM version][npm-image]][npm-url]
 [![build status][travis-image]][travis-url]
 [![Test coverage][codecov-image]][codecov-url]
@@ -19,6 +20,7 @@
 [snyk-url]: https://snyk.io/test/npm/egg-logger-remote
 [download-image]: https://img.shields.io/npm/dm/egg-logger-remote.svg?style=flat-square
 [download-url]: https://npmjs.org/package/egg-logger-remote
+-->
 
 <!--
 Description here.
