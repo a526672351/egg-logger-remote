@@ -6,7 +6,7 @@
  * @property {String} SOME_KEY - some description
  */
 exports.loggerRemote = {
-  endpoint: 'http://url/',
+  endpoint: '',
   disable: [],
   protobuf: true,
   transform: null
