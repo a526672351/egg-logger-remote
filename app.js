@@ -1,6 +1,8 @@
 'use strict';
+const uuid = require('uuid');
 const RemoteClient = require('./lib/remote_client');
 const RemoteTransport = require('./lib/remote_transport');
+const isReady = Symbol.for('egg_tracer_is_ready');
 
 module.exports = (app) => {
   const config = app.config.loggerRemote;
@@ -23,5 +25,15 @@ module.exports = (app) => {
     logger.set('remote', transport);
     logger.disable('file');
   }
+
+  app.httpclient.on('request', req => {
+    req.args.headers = req.args.headers || {};
+    req.args.headers['x-tracer-id'] = req.ctx && req.ctx.traceId || uuid.v1();
+    req.args.headers['x-tracer-name'] = app.config.name;
+  });
+
+  app.ready(() => {
+    app[isReady] = true;
+  });
 
 };
