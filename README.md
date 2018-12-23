@@ -1,6 +1,6 @@
 # egg-logger-remote
 
-<!--
+
 [![NPM version][npm-image]][npm-url]
 [![build status][travis-image]][travis-url]
 [![Test coverage][codecov-image]][codecov-url]
@@ -10,17 +10,17 @@
 
 [npm-image]: https://img.shields.io/npm/v/egg-logger-remote.svg?style=flat-square
 [npm-url]: https://npmjs.org/package/egg-logger-remote
-[travis-image]: https://img.shields.io/travis/eggjs/egg-logger-remote.svg?style=flat-square
-[travis-url]: https://travis-ci.org/eggjs/egg-logger-remote
-[codecov-image]: https://img.shields.io/codecov/c/github/eggjs/egg-logger-remote.svg?style=flat-square
-[codecov-url]: https://codecov.io/github/eggjs/egg-logger-remote?branch=master
-[david-image]: https://img.shields.io/david/eggjs/egg-logger-remote.svg?style=flat-square
-[david-url]: https://david-dm.org/eggjs/egg-logger-remote
+[travis-image]: https://img.shields.io/travis/a526672351/egg-logger-remote.svg?style=flat-square
+[travis-url]: https://travis-ci.org/a526672351/egg-logger-remote
+[codecov-image]: https://img.shields.io/codecov/c/github/a526672351/egg-logger-remote.svg?style=flat-square
+[codecov-url]: https://codecov.io/github/a526672351/egg-logger-remote?branch=master
+[david-image]: https://img.shields.io/david/a526672351/egg-logger-remote.svg?style=flat-square
+[david-url]: https://david-dm.org/a526672351/egg-logger-remote
 [snyk-image]: https://snyk.io/test/npm/egg-logger-remote/badge.svg?style=flat-square
 [snyk-url]: https://snyk.io/test/npm/egg-logger-remote
 [download-image]: https://img.shields.io/npm/dm/egg-logger-remote.svg?style=flat-square
 [download-url]: https://npmjs.org/package/egg-logger-remote
--->
+
 
 <!--
 Description here.
@@ -126,7 +126,7 @@ If `slsLevel` is not specified, it will use level instead.
 
 ## Questions & Suggestions
 
-Please open an issue [here](https://github.com/eggjs/egg/issues).
+Please open an issue [here](https://github.com/a526672351/egg/issues).
 
 ## License
 
