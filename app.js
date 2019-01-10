@@ -23,7 +23,9 @@ module.exports = (app) => {
       loggerFileName: logger.options.file,
     });
     logger.set('remote', transport);
-    logger.disable('file');
+    if (!config.fileIO) {
+      logger.disable('file');
+    }
   }
 
   app.httpclient.on('request', req => {

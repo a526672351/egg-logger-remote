@@ -9,6 +9,7 @@ exports.loggerRemote = {
   endpoint: '',
   disable: [],
   protobuf: true,
+  fileIO: false,
   transform: null
 };
 
