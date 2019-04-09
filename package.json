@@ -39,7 +39,8 @@
     "ci": "egg-bin pkgfiles --check && npm run lint && npm run cov",
     "pkgfiles": "egg-bin pkgfiles",
     "autod": "autod",
-    "pb": "pbjs -t static-module -w commonjs -o lib/log.js lib/log.proto"
+    "pb": "pbjs -t static-module -w commonjs -o lib/log.js lib/log.proto",
+    "release": "standard-version & git push --follow-tags origin master & npm publish"
   },
   "files": [
     "app.js",
